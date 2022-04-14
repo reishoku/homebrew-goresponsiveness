@@ -8,7 +8,7 @@ class Goresponsiveness < Formula
 
   def install
     system "go", "mod", "download"
-    system "go", "build", "networkQuality.go", "-o", bin/"networkQuality"
+    system "go", "build", "-o", bin/"networkQuality", "networkQuality.go"
   end
 end
 
