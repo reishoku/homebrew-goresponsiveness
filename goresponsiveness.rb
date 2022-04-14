@@ -1,4 +1,4 @@
-class GoResponsiveness < Formula
+class Goresponsiveness < Formula
   desc "A draft-ietf-ippm-responsiveness client in Go."
   homepage "https://github.com/network-quality/goresponsiveness"
 
